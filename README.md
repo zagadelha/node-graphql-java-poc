@@ -33,7 +33,15 @@ WHOISWHO_SECURITY_TOKENSECRET=myspecialsecret
 ./mvnw spring-boot:run
 ```
 
-To run the frontend, you need Node.js 12+ and you can use the following command:
+## Workaround
+
+There is a bug on project, in order to fix it perform the command below:
+
+```
+nvm install 16.13.0
+```
+
+To run the frontend, you need Node.js 12+ and you can use the following command
 
 ```
 cd whoiswho-frontend
